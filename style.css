@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #464F54;
+
+  margin-top: 149px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+  height: 100vh;
+}
+
+.left-line{
+    border-left: 2px solid;
+    border-color:  #E8ECED;
+
+    height: 100%;
+    padding-left: 56px;
+}
+
+.main{
+    background-color:#fff;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 66px;
+    padding-right: 112px;
+    padding-bottom: 79px;
+
+}
+.main__list{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+
+    background: #FBC02D;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+
+    position: absolute;
+    top: 244px;
+    right: 0px;
+    
+
+}
+
+.main__link{
+    padding: 12px 16px;
+}
+
+.main__link:first-child{
+    padding-left: 12px;
+}
+.main__link:last-child{
+    padding-right: 176px;
+}
+
+.main__button{
+    width: 36px;
+    height: 36px;
+
+    border: none;
+}
+
+.main__black-title{
+    font-family: sans-serif ;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    
+    color: #767676;
+}
+
+.main__black-input{
+    width: 876px;
+    
+    padding-left: 68px;
+    padding-top: 45px;
+    padding-bottom: 46px;
+
+    background: #181818;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    top: 47px;
+    right: 0px;
+}
+
+.main__input{
+    background-color: #181818;
+    color:white;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+
+    margin-bottom: 11px;
+    height: 75px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.name{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    
+    color: #B4B4B4;
+
+    padding-top: 260px;
+}
+
+.title{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 100px;
+    
+    text-transform: uppercase;
+
+    padding-top: 18px;
+    
+    color: #2A2A2A;
+}
+
+.question{
+    font-family: 'Georgia';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #8F8F8F;
+}
+
+.paragraph{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    
+    color: #000000; 
+}
+
+.paragraph--middle{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.A{
+    background: #FBC02D url(icons/grey-A.svg) no-repeat center;
+}
+
+.T{
+    background: #FBC02D url(icons/grey-Tt.svg) no-repeat center;
+}
+
+.box{
+    background: #FBC02D url(icons/Vectorgrey-box.svg) no-repeat center;
+}
+
+.B{
+    background: #FBC02D url(icons/Vectorgrey-B.svg) no-repeat center;
+}
+
+.I{
+    background: #FBC02D url(icons/Vectorgrey-I.svg) no-repeat center;
+}
+
+.U{
+    background: #FBC02D url(icons/Vectorgrey-U.svg) no-repeat center;
+}
+
+.lines{
+    background: #FBC02D url(icons/Vectorgrey-lines.svg) no-repeat center;
+}
+
+.left{
+    background: #FBC02D url(icons/Vectorgrey-left.svg) no-repeat center;
+}
+
+.center{
+    background: #FBC02D url(icons/Vectorgrey-center.svg) no-repeat center;
+}
+
+.right{
+    background: #FBC02D url(icons/grey-right.svg) no-repeat center;
+}
+
+.main__link:hover .A{
+    background: url(icons/white-A.svg) no-repeat center;
+}
+.main__link:hover .T{
+    background: url(icons/white-Tt.svg) no-repeat center;
+}
+.main__link:hover .box{
+    background: url(icons/white-box.svg) no-repeat center;
+}
+.main__link:hover .B{
+    background: url(icons/white-B.svg) no-repeat center;
+}
+.main__link:hover .I{
+    background: url(icons/white-I.svg) no-repeat center;
+}
+.main__link:hover .U{
+    background: url(icons/white-U.svg) no-repeat center;
+}
+.main__link:hover .lines{
+    background: url(icons/white-lines.svg) no-repeat center;
+}
+.main__link:hover .left{
+    background: url(icons/white-left.svg) no-repeat center;
+}
+.main__link:hover .center{
+    background: url(icons/white-center.svg) no-repeat center;
+}
+.main__link:hover .right{
+    background: url(icons/white-right.svg) no-repeat center;
+}
